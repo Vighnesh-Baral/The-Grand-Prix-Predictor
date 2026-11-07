@@ -1,4 +1,4 @@
-# The Grand Prix Predictor — PitchIQ Architecture + ML Backend v0.9.3
+# The Grand Prix Predictor
 
 The Grand Prix Predictor is an independent Formula 1 analytics platform. This revision updates the FastAPI backend, ML feature engineering and the Constructor Intelligence page. The existing React application structure is retained; the Constructor Intelligence view now reports actual feature coverage instead of planned placeholders.
 
