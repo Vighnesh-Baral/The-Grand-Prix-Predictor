@@ -1,0 +1,3 @@
+# Isolated historical timing-data collector only.
+# TIF1 0.9.0 requires pandas 3.x; do not install in the ML/API .venv.
+tif1==0.9.0

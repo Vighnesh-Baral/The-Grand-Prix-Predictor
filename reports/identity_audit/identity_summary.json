@@ -1,0 +1,131 @@
+{
+  "tables": {
+    "practice_results": {
+      "rows": 10279,
+      "rows_with_canonical_driver_key": 10279,
+      "rows_without_canonical_driver_key": 0,
+      "driver_identity_status": {
+        "name_key_with_source_id": 10083,
+        "name_key_only": 196
+      }
+    },
+    "race_results": {
+      "rows": 3876,
+      "rows_with_canonical_driver_key": 3876,
+      "rows_without_canonical_driver_key": 0,
+      "driver_identity_status": {
+        "name_key_with_source_id": 3876
+      }
+    },
+    "qualifying_results": {
+      "rows": 3868,
+      "rows_with_canonical_driver_key": 3868,
+      "rows_without_canonical_driver_key": 0,
+      "driver_identity_status": {
+        "name_key_with_source_id": 3868
+      }
+    },
+    "sprint_results": {
+      "rows": 612,
+      "rows_with_canonical_driver_key": 612,
+      "rows_without_canonical_driver_key": 0,
+      "driver_identity_status": {
+        "name_key_with_source_id": 612
+      }
+    }
+  },
+  "practice_to_race": {
+    "target": "race_results",
+    "practice_unique_driver_events": 4080,
+    "matched_driver_events": 3850,
+    "unmatched_driver_events": 230,
+    "match_rate": 0.943627
+  },
+  "practice_to_qualifying": {
+    "target": "qualifying_results",
+    "practice_unique_driver_events": 4080,
+    "matched_driver_events": 3842,
+    "unmatched_driver_events": 238,
+    "match_rate": 0.941667
+  },
+  "practice_source_id_differs_from_race_source_id": 479,
+  "unmatched_practice_source_rows": {
+    "TIF1 public archive (FastF1-derived lap classification)": 239,
+    "Jolpica alpha": 38
+  },
+  "per_season": [
+    {
+      "season": 2018,
+      "practice_driver_events": 443,
+      "matched_race": 420,
+      "unmatched_race": 23,
+      "matched_qualifying": 420,
+      "unmatched_qualifying": 23
+    },
+    {
+      "season": 2019,
+      "practice_driver_events": 427,
+      "matched_race": 420,
+      "unmatched_race": 7,
+      "matched_qualifying": 418,
+      "unmatched_qualifying": 9
+    },
+    {
+      "season": 2020,
+      "practice_driver_events": 349,
+      "matched_race": 339,
+      "unmatched_race": 10,
+      "matched_qualifying": 339,
+      "unmatched_qualifying": 10
+    },
+    {
+      "season": 2021,
+      "practice_driver_events": 451,
+      "matched_race": 440,
+      "unmatched_race": 11,
+      "matched_qualifying": 439,
+      "unmatched_qualifying": 12
+    },
+    {
+      "season": 2022,
+      "practice_driver_events": 468,
+      "matched_race": 440,
+      "unmatched_race": 28,
+      "matched_qualifying": 440,
+      "unmatched_qualifying": 28
+    },
+    {
+      "season": 2023,
+      "practice_driver_events": 452,
+      "matched_race": 435,
+      "unmatched_race": 17,
+      "matched_qualifying": 435,
+      "unmatched_qualifying": 17
+    },
+    {
+      "season": 2024,
+      "practice_driver_events": 502,
+      "matched_race": 479,
+      "unmatched_race": 23,
+      "matched_qualifying": 479,
+      "unmatched_qualifying": 23
+    },
+    {
+      "season": 2025,
+      "practice_driver_events": 515,
+      "matched_race": 479,
+      "unmatched_race": 36,
+      "matched_qualifying": 479,
+      "unmatched_qualifying": 36
+    },
+    {
+      "season": 2026,
+      "practice_driver_events": 473,
+      "matched_race": 398,
+      "unmatched_race": 75,
+      "matched_qualifying": 393,
+      "unmatched_qualifying": 80
+    }
+  ],
+  "interpretation": "Unmatched practice drivers may be reserve or FP-only entrants and are not automatically errors. Canonical keys use normalized full names; source driver IDs remain unchanged and are not used as cross-provider identity keys. Name variants are surfaced for review; fuzzy matching is not applied."
+}

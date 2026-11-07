@@ -1,0 +1,53 @@
+# Virtual environment and Python cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+*.pem
+
+# API and FastF1 cache
+data/cache/
+
+# Downloaded datasets (keep directories with .gitkeep)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.parquet
+
+# Generated model artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/metrics.json
+
+# Notebook state and IDE files
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# Local environments and frontend dependencies
+venv/
+venv_t1f1/
+.venv-t1f1/
+frontend/node_modules/
+frontend/dist/
+
+# Generated frontend build (source model remains in frontend/public/models/)
+app/static/*
+!app/static/.gitkeep
+
+# Additional virtual environments
+.venv-tif1/
+
+# Environment configuration
+.env.*
+!.env.example
+
+# All local datasets and API cache
+data/cache/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
